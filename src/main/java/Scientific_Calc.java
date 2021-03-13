@@ -91,7 +91,7 @@ public class Scientific_Calc {
     }
 
     Boolean verifyPower(double n1, double n2, double e) {
-        System.out.println("Verify result: power for number1 " + n1 + "number2" + n2);
+        System.out.println("Verify result: power for number1 - " + n1 + " number2 - " + n2);
         if (Math.pow(n1, n2) == e) {
             return true;
         } else {
