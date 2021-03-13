@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Scientific_Calc {
     public static void main(String[] args) {
         int choice = 0, flag = 0;
-        double a = 0,b = 0;
+        double a = 0, b = 0;
         Scanner scan = new Scanner(System.in);
 
         System.out.println("** SPE Scientific Calculator **");
@@ -14,7 +14,7 @@ public class Scientific_Calc {
             System.out.print("Enter your choice: ");
             choice = scan.nextInt();
 
-            if (choice > 4 || choice <1) {
+            if (choice > 4 || choice < 1) {
                 flag = 1;
                 System.out.println("Exit, Bye");
                 break;
@@ -26,12 +26,15 @@ public class Scientific_Calc {
                     a = scan.nextDouble();
                 }
 
-                switch(choice) {
-                    case 1: System.out.println("------> Square root of " + a + " = " + Math.sqrt(a));
+                switch (choice) {
+                    case 1:
+                        System.out.println("------> Square root of " + a + " = " + Math.sqrt(a));
                         break;
-                    case 2: System.out.println("------> Factorial of " + a + " = " + FactorialFunc(a));
+                    case 2:
+                        System.out.println("------> Factorial of " + a + " = " + FactorialFunc(a));
                         break;
-                    case 3: System.out.println("------> Natural logarithm (base е) of " + a + " = " + Math.log(a));
+                    case 3:
+                        System.out.println("------> Natural logarithm (base е) of " + a + " = " + Math.log(a));
                         break;
                     case 4: {
                         System.out.println("Enter two numbers");
@@ -50,14 +53,49 @@ public class Scientific_Calc {
             }
             System.out.println("\n");
 
-        }while(flag == 0);
+        } while (flag == 0);
     }
 
     static double FactorialFunc(double p) {
         if (p == 0)
             return 1;
         else
-            return(p * FactorialFunc(p-1));
+            return (p * FactorialFunc(p - 1));
     }
 
+    Boolean verifySqrRoot(double n, double e) {
+        System.out.println("Verify result: square root for number " + n);
+        if (Math.sqrt(n) == e) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    Boolean verifyFactorial(double n, double e) {
+        System.out.println("Verify result: factorial for number " + n);
+        if (FactorialFunc(n) == e) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    Boolean verifyNaturalLog(double n, double e) {
+        System.out.println("Verify result: natural logarithm for number " + n);
+        if (Math.log(n) == e) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    Boolean verifyPower(double n1, double n2, double e) {
+        System.out.println("Verify result: power for number1 " + n1 + "number2" + n2);
+        if (Math.pow(n1, n2) == e) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
