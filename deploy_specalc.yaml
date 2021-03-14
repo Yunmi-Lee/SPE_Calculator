@@ -1,0 +1,31 @@
+---
+- name: Deploy SPE-Calculator to all node.
+  hosts: node1,node2
+  become: yes
+  tasks:
+        - name: Install java8 package
+          apt:
+            name: openjdk-8-jdk
+            state: present
+        - name: Copy jar file to home directory
+          copy:
+            src: ~/git-dir/SPE_Calculator/target/SPE_Calculator-1.0-SNAPSHOT.jar
+            dest: ~/
+            mode: '0775'
+
+- hosts: node3
+  become: yes
+  tasks:
+         - name: Install java8 package
+           apt:
+              name: openjdk-8-jdk
+              state: present
+
+         - name: Pull SEP-Calculator docker image
+           command:
+              cmd: docker pull agapelee/specalculator:latest
+
+#         - name: Run SEP-Calculator container
+#           command:
+#              cmd: docker container run -it agapelee/specalculator
+
