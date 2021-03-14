@@ -9,7 +9,7 @@
             state: present
         - name: Copy jar file to home directory
           copy:
-            src: ~/git-dir/SPE_Calculator/target/SPE_Calculator-1.0-SNAPSHOT.jar
+            src: /home/agapelee/git-dir/SPE_Calculator/target/SPE_Calculator-1.0-SNAPSHOT.jar
             dest: ~/
             mode: '0775'
 
