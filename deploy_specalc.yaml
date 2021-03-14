@@ -1,5 +1,5 @@
 ---
-- name: Deploy SPE-Calculator to all node.
+- name: Deploy SPE-Calculator node 1, node 2
   hosts: node1,node2
   become: yes
   tasks:
@@ -13,7 +13,8 @@
             dest: ~/
             mode: '0775'
 
-- hosts: node3
+- name: Deploy SPE-Calculator node 3
+  hosts: node3
   become: yes
   tasks:
          - name: Install java8 package
