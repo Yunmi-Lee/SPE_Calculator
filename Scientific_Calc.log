@@ -1,0 +1,244 @@
+[DEBUG] 2021-03-15 09:03:39.886 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 09:03:39.888 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 09:03:39.889 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 09:03:39.892 [main] Scientific_Calc - Scientific_Calc main start
+[INFO ] 2021-03-15 09:03:42.612 [main] Scientific_Calc - [SQRT] - 2.0
+[INFO ] 2021-03-15 09:03:42.613 [main] Scientific_Calc - [RESULT] - 1.4142135623730951
+[INFO ] 2021-03-15 09:03:43.675 [main] Scientific_Calc - [NATURAL LOG] - 2.0
+[INFO ] 2021-03-15 09:03:43.676 [main] Scientific_Calc - [RESULT] - 0.6931471805599453
+[INFO ] 2021-03-15 09:03:44.762 [main] Scientific_Calc - [NATURAL LOG] - 4.0
+[INFO ] 2021-03-15 09:03:44.762 [main] Scientific_Calc - [RESULT] - 1.3862943611198906
+[INFO ] 2021-03-15 09:03:46.202 [main] Scientific_Calc - [POWER] - 3.0 of 5.0
+[INFO ] 2021-03-15 09:03:46.203 [main] Scientific_Calc - [RESULT] - 243.0
+[DEBUG] 2021-03-15 09:07:12.067 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 09:07:12.069 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 09:07:12.069 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 09:07:12.071 [main] Scientific_Calc - Scientific_Calc main start
+[INFO ] 2021-03-15 09:07:16.607 [main] Scientific_Calc - [POWER] - 5.0 of 5.0
+[INFO ] 2021-03-15 09:07:16.608 [main] Scientific_Calc - [RESULT] - 3125.0
+[INFO ] 2021-03-15 09:07:18.189 [main] Scientific_Calc - [SQRT] - 3.0
+[INFO ] 2021-03-15 09:07:18.190 [main] Scientific_Calc - [RESULT] - 1.7320508075688772
+[INFO ] 2021-03-15 09:07:19.688 [main] Scientific_Calc - [FRACTIONAL] - 1.0
+[INFO ] 2021-03-15 09:07:19.689 [main] Scientific_Calc - [RESULT] - 1.0
+[INFO ] 2021-03-15 09:07:20.847 [main] Scientific_Calc - [SQRT] - 2.0
+[INFO ] 2021-03-15 09:07:20.848 [main] Scientific_Calc - [RESULT] - 1.4142135623730951
+[DEBUG] 2021-03-15 09:08:27.426 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 09:08:27.427 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 09:08:27.428 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 09:08:27.430 [main] Scientific_Calc - Scientific_Calc main start
+[DEBUG] 2021-03-15 09:09:36.533 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 09:09:36.535 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 09:09:36.535 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 09:09:36.539 [main] Scientific_Calc - Scientific_Calc main start
+[INFO ] 2021-03-15 09:09:41.879 [main] Scientific_Calc - [POWER] - 6.0 of 9.0
+[INFO ] 2021-03-15 09:09:41.880 [main] Scientific_Calc - [RESULT] - 1.0077696E7
+[DEBUG] 2021-03-15 09:09:41.880 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:09:44.967 [main] Scientific_Calc - [SQRT] - 100.0
+[INFO ] 2021-03-15 09:09:44.968 [main] Scientific_Calc - [RESULT] - 10.0
+[DEBUG] 2021-03-15 09:09:44.968 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:09:47.080 [main] Scientific_Calc - [NATURAL LOG] - 2.0
+[INFO ] 2021-03-15 09:09:47.082 [main] Scientific_Calc - [RESULT] - 0.6931471805599453
+[DEBUG] 2021-03-15 09:09:47.082 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:09:49.241 [main] Scientific_Calc - [POWER] - 3.0 of 3.0
+[INFO ] 2021-03-15 09:09:49.242 [main] Scientific_Calc - [RESULT] - 27.0
+[DEBUG] 2021-03-15 09:09:49.242 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:09:51.227 [main] Scientific_Calc - [FRACTIONAL] - 1.0
+[INFO ] 2021-03-15 09:09:51.228 [main] Scientific_Calc - [RESULT] - 1.0
+[DEBUG] 2021-03-15 09:09:51.228 [main] Scientific_Calc - Scientific_Calc main running
+[ERROR] 2021-03-15 09:09:53.491 [main] Scientific_Calc - Invalid input, Entered input is beyond the choice.
+[DEBUG] 2021-03-15 09:09:53.491 [main] Scientific_Calc - Scientific_Calc main end
+[DEBUG] 2021-03-15 09:14:12.170 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 09:14:12.172 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 09:14:12.202 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 09:14:12.208 [main] Scientific_Calc - Scientific_Calc main start
+[DEBUG] 2021-03-15 09:14:21.797 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 09:14:21.809 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 09:14:21.810 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 09:14:21.819 [main] Scientific_Calc - Scientific_Calc main start
+[ERROR] 2021-03-15 09:14:24.456 [main] Scientific_Calc - Invalid input, Entered input is beyond the choice.
+[DEBUG] 2021-03-15 09:14:24.456 [main] Scientific_Calc - Scientific_Calc main end
+[DEBUG] 2021-03-15 09:14:26.717 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 09:14:26.730 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 09:14:26.732 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 09:14:26.740 [main] Scientific_Calc - Scientific_Calc main start
+[INFO ] 2021-03-15 09:14:30.406 [main] Scientific_Calc - [SQRT] - 9090.0
+[INFO ] 2021-03-15 09:14:30.407 [main] Scientific_Calc - [RESULT] - 95.34149149242423
+[DEBUG] 2021-03-15 09:14:30.407 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:14:37.902 [main] Scientific_Calc - [FRACTIONAL] - 320398.0
+[DEBUG] 2021-03-15 09:14:58.900 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 09:14:58.901 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 09:14:58.901 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 09:14:58.903 [main] Scientific_Calc - Scientific_Calc main start
+[INFO ] 2021-03-15 09:15:05.033 [main] Scientific_Calc - [NATURAL LOG] - 8.0
+[INFO ] 2021-03-15 09:15:05.033 [main] Scientific_Calc - [RESULT] - 2.0794415416798357
+[DEBUG] 2021-03-15 09:15:05.033 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:15:10.380 [main] Scientific_Calc - [FRACTIONAL] - 789.0
+[INFO ] 2021-03-15 09:15:10.381 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:15:10.382 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:15:13.131 [main] Scientific_Calc - [NATURAL LOG] - 78907.0
+[INFO ] 2021-03-15 09:15:13.133 [main] Scientific_Calc - [RESULT] - 11.276025222797195
+[DEBUG] 2021-03-15 09:15:13.133 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:15:15.868 [main] Scientific_Calc - [POWER] - 789.0 of 789.0
+[INFO ] 2021-03-15 09:15:15.869 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:15:15.871 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:15:18.619 [main] Scientific_Calc - [SQRT] - 234.0
+[INFO ] 2021-03-15 09:15:18.620 [main] Scientific_Calc - [RESULT] - 15.297058540778355
+[DEBUG] 2021-03-15 09:15:18.620 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:15:20.491 [main] Scientific_Calc - [FRACTIONAL] - 456.0
+[INFO ] 2021-03-15 09:15:20.492 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:15:20.492 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:15:21.987 [main] Scientific_Calc - [NATURAL LOG] - 123.0
+[INFO ] 2021-03-15 09:15:21.989 [main] Scientific_Calc - [RESULT] - 4.812184355372417
+[DEBUG] 2021-03-15 09:15:21.989 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:15:24.571 [main] Scientific_Calc - [POWER] - 456.0 of 456.0
+[INFO ] 2021-03-15 09:15:24.571 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:15:24.571 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:15:28.235 [main] Scientific_Calc - [SQRT] - 78.0
+[INFO ] 2021-03-15 09:15:28.235 [main] Scientific_Calc - [RESULT] - 8.831760866327848
+[DEBUG] 2021-03-15 09:15:28.235 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:15:30.087 [main] Scientific_Calc - [FRACTIONAL] - 345.0
+[INFO ] 2021-03-15 09:15:30.088 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:15:30.089 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:15:31.799 [main] Scientific_Calc - [NATURAL LOG] - 123.0
+[INFO ] 2021-03-15 09:15:31.800 [main] Scientific_Calc - [RESULT] - 4.812184355372417
+[DEBUG] 2021-03-15 09:15:31.800 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:15:34.406 [main] Scientific_Calc - [POWER] - 234.0 of 78.0
+[INFO ] 2021-03-15 09:15:34.407 [main] Scientific_Calc - [RESULT] - 6.292697832822068E184
+[DEBUG] 2021-03-15 09:15:34.407 [main] Scientific_Calc - Scientific_Calc main running
+[DEBUG] 2021-03-15 09:16:03.759 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 09:16:03.762 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 09:16:03.763 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 09:16:03.767 [main] Scientific_Calc - Scientific_Calc main start
+[INFO ] 2021-03-15 09:16:07.378 [main] Scientific_Calc - [NATURAL LOG] - 123.0
+[INFO ] 2021-03-15 09:16:07.378 [main] Scientific_Calc - [RESULT] - 4.812184355372417
+[DEBUG] 2021-03-15 09:16:07.378 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:09.352 [main] Scientific_Calc - [SQRT] - 123.0
+[INFO ] 2021-03-15 09:16:09.353 [main] Scientific_Calc - [RESULT] - 11.090536506409418
+[DEBUG] 2021-03-15 09:16:09.354 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:10.848 [main] Scientific_Calc - [FRACTIONAL] - 234.0
+[INFO ] 2021-03-15 09:16:10.849 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:16:10.850 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:12.210 [main] Scientific_Calc - [NATURAL LOG] - 234.0
+[INFO ] 2021-03-15 09:16:12.212 [main] Scientific_Calc - [RESULT] - 5.455321115357702
+[DEBUG] 2021-03-15 09:16:12.212 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:14.521 [main] Scientific_Calc - [POWER] - 234.0 of 234.0
+[INFO ] 2021-03-15 09:16:14.522 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:16:14.523 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:17.049 [main] Scientific_Calc - [SQRT] - 89.0
+[INFO ] 2021-03-15 09:16:17.050 [main] Scientific_Calc - [RESULT] - 9.433981132056603
+[DEBUG] 2021-03-15 09:16:17.051 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:22.355 [main] Scientific_Calc - [FRACTIONAL] - 998.0
+[INFO ] 2021-03-15 09:16:22.356 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:16:22.356 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:24.372 [main] Scientific_Calc - [NATURAL LOG] - 987987.0
+[INFO ] 2021-03-15 09:16:24.373 [main] Scientific_Calc - [RESULT] - 13.803424818748702
+[DEBUG] 2021-03-15 09:16:24.373 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:27.732 [main] Scientific_Calc - [POWER] - 987.0 of 123.0
+[INFO ] 2021-03-15 09:16:27.736 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:16:27.736 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:30.340 [main] Scientific_Calc - [NATURAL LOG] - 987.0
+[INFO ] 2021-03-15 09:16:30.341 [main] Scientific_Calc - [RESULT] - 6.894670039433482
+[DEBUG] 2021-03-15 09:16:30.342 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:32.155 [main] Scientific_Calc - [NATURAL LOG] - 98.0
+[INFO ] 2021-03-15 09:16:32.155 [main] Scientific_Calc - [RESULT] - 4.584967478670572
+[DEBUG] 2021-03-15 09:16:32.156 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:34.644 [main] Scientific_Calc - [NATURAL LOG] - 987.0
+[INFO ] 2021-03-15 09:16:34.645 [main] Scientific_Calc - [RESULT] - 6.894670039433482
+[DEBUG] 2021-03-15 09:16:34.645 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:36.475 [main] Scientific_Calc - [FRACTIONAL] - 9872.0
+[INFO ] 2021-03-15 09:16:36.476 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:16:36.476 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:38.532 [main] Scientific_Calc - [FRACTIONAL] - 9898.0
+[INFO ] 2021-03-15 09:16:38.533 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:16:38.533 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:40.531 [main] Scientific_Calc - [SQRT] - 90890.0
+[INFO ] 2021-03-15 09:16:40.531 [main] Scientific_Calc - [RESULT] - 301.4796842243271
+[DEBUG] 2021-03-15 09:16:40.532 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:42.779 [main] Scientific_Calc - [SQRT] - 98.0
+[INFO ] 2021-03-15 09:16:42.780 [main] Scientific_Calc - [RESULT] - 9.899494936611665
+[DEBUG] 2021-03-15 09:16:42.780 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:45.467 [main] Scientific_Calc - [POWER] - 98.0 of 9809.0
+[INFO ] 2021-03-15 09:16:45.467 [main] Scientific_Calc - [RESULT] - Infinity
+[DEBUG] 2021-03-15 09:16:45.468 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 09:16:47.359 [main] Scientific_Calc - [FRACTIONAL] - 98.0
+[INFO ] 2021-03-15 09:16:47.360 [main] Scientific_Calc - [RESULT] - 9.426890448883242E153
+[DEBUG] 2021-03-15 09:16:47.360 [main] Scientific_Calc - Scientific_Calc main running
+[ERROR] 2021-03-15 09:16:48.255 [main] Scientific_Calc - Invalid input, Entered input is beyond the choice.
+[DEBUG] 2021-03-15 09:16:48.255 [main] Scientific_Calc - Scientific_Calc main end
+[DEBUG] 2021-03-15 13:59:17.467 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 13:59:17.473 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 13:59:17.473 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 13:59:17.477 [main] Scientific_Calc - Scientific_Calc main start
+[INFO ] 2021-03-15 13:59:21.124 [main] Scientific_Calc - [POWER] - 23.0 of 12.0
+[INFO ] 2021-03-15 13:59:21.124 [main] Scientific_Calc - [RESULT] - 2.191462443202032E16
+[DEBUG] 2021-03-15 13:59:21.124 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 13:59:40.330 [main] Scientific_Calc - [SQRT] - 1.0
+[INFO ] 2021-03-15 13:59:40.331 [main] Scientific_Calc - [RESULT] - 1.0
+[DEBUG] 2021-03-15 13:59:40.331 [main] Scientific_Calc - Scientific_Calc main running
+[ERROR] 2021-03-15 13:59:43.760 [main] Scientific_Calc - Invalid input, Entered input is beyond the choice.
+[DEBUG] 2021-03-15 13:59:43.761 [main] Scientific_Calc - Scientific_Calc main end
+[DEBUG] 2021-03-15 14:06:25.449 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 14:06:25.453 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 14:06:25.453 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 14:06:25.456 [main] Scientific_Calc - Scientific_Calc main start
+[INFO ] 2021-03-15 14:06:27.845 [main] Scientific_Calc - [SQRT] - 23.0
+[INFO ] 2021-03-15 14:06:27.845 [main] Scientific_Calc - [RESULT] - 4.795831523312719
+[DEBUG] 2021-03-15 14:06:27.846 [main] Scientific_Calc - Scientific_Calc main running
+[ERROR] 2021-03-15 14:06:29.732 [main] Scientific_Calc - Invalid input, Entered input is beyond the choice.
+[DEBUG] 2021-03-15 14:06:29.732 [main] Scientific_Calc - Scientific_Calc main end
+[DEBUG] 2021-03-15 14:06:35.533 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 14:06:35.536 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 14:06:35.536 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 14:06:35.538 [main] Scientific_Calc - Scientific_Calc main start
+[INFO ] 2021-03-15 14:06:37.939 [main] Scientific_Calc - [NATURAL LOG] - 12.0
+[INFO ] 2021-03-15 14:06:37.940 [main] Scientific_Calc - [RESULT] - 2.4849066497880004
+[DEBUG] 2021-03-15 14:06:37.940 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 14:06:41.153 [main] Scientific_Calc - [POWER] - 123.0 of 123.0
+[INFO ] 2021-03-15 14:06:41.153 [main] Scientific_Calc - [RESULT] - 1.1437436793461719E257
+[DEBUG] 2021-03-15 14:06:41.153 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 14:06:43.584 [main] Scientific_Calc - [NATURAL LOG] - 123.0
+[INFO ] 2021-03-15 14:06:43.584 [main] Scientific_Calc - [RESULT] - 4.812184355372417
+[DEBUG] 2021-03-15 14:06:43.585 [main] Scientific_Calc - Scientific_Calc main running
+[ERROR] 2021-03-15 14:06:44.096 [main] Scientific_Calc - Invalid input, Entered input is beyond the choice.
+[DEBUG] 2021-03-15 14:06:44.096 [main] Scientific_Calc - Scientific_Calc main end
+[DEBUG] 2021-03-15 14:07:24.769 [main] Scientific_Calc - Debug Message Logged !!!
+[INFO ] 2021-03-15 14:07:24.769 [main] Scientific_Calc - Info Message Logged !!!
+[ERROR] 2021-03-15 14:07:24.770 [main] Scientific_Calc - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at Scientific_Calc.main(Scientific_Calc.java:19) [SPE_Calculator-1.0-SNAPSHOT.jar:?]
+[DEBUG] 2021-03-15 14:07:24.771 [main] Scientific_Calc - Scientific_Calc main start
+[INFO ] 2021-03-15 14:07:27.029 [main] Scientific_Calc - [NATURAL LOG] - 12.0
+[INFO ] 2021-03-15 14:07:27.030 [main] Scientific_Calc - [RESULT] - 2.4849066497880004
+[DEBUG] 2021-03-15 14:07:27.030 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 14:07:29.465 [main] Scientific_Calc - [FRACTIONAL] - 123.0
+[INFO ] 2021-03-15 14:07:29.465 [main] Scientific_Calc - [RESULT] - 1.2146304367025325E205
+[DEBUG] 2021-03-15 14:07:29.465 [main] Scientific_Calc - Scientific_Calc main running
+[INFO ] 2021-03-15 14:07:31.719 [main] Scientific_Calc - [NATURAL LOG] - 123.0
+[INFO ] 2021-03-15 14:07:31.720 [main] Scientific_Calc - [RESULT] - 4.812184355372417
+[DEBUG] 2021-03-15 14:07:31.720 [main] Scientific_Calc - Scientific_Calc main running
+[ERROR] 2021-03-15 14:07:33.469 [main] Scientific_Calc - Invalid input, Entered input is beyond the choice.
+[DEBUG] 2021-03-15 14:07:33.469 [main] Scientific_Calc - Scientific_Calc main end
