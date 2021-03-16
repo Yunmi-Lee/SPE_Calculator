@@ -1,0 +1,345 @@
+Started by an SCM change
+Running in Durability level: MAX_SURVIVABILITY
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /var/lib/jenkins/workspace/ScientificCalc
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (1. Git Pull SPE_Calculator from GitHub)
+[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Yunmi-Lee/SPE_Calculator.git # timeout=10
+Fetching upstream changes from https://github.com/Yunmi-Lee/SPE_Calculator.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/Yunmi-Lee/SPE_Calculator.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision d48d792e9ae9b13bad3586d05b7a713a703aff35 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d48d792e9ae9b13bad3586d05b7a713a703aff35 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main d48d792e9ae9b13bad3586d05b7a713a703aff35 # timeout=10
+Commit message: "add monitering files"
+ > git rev-list --no-walk b8fcfb8cd250b8eeab05cf2049a1a18e027d5f16 # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (2. Maven Compile the project)
+[Pipeline] sh
++ mvn compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.example:SPE_Calculator[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding SPE_Calculator 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/ScientificCalc/target/classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.775 s
+[[1;34mINFO[m] Finished at: 2021-03-16T06:00:20+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (3. Maven, Junit Unittest)
+[Pipeline] sh
++ mvn test
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.example:SPE_Calculator[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding SPE_Calculator 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/ScientificCalc/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 5 source files to /var/lib/jenkins/workspace/ScientificCalc/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /var/lib/jenkins/workspace/ScientificCalc/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuites
+Before CalFuncTestSqrt Class
+Before CalFuncTestSqrt Testing
+Verify result: square root for number 81.0
+After CalFuncTestSqrt Testing
+Before CalFuncTestSqrt Testing
+Verify result: square root for number 16.0
+After CalFuncTestSqrt Testing
+Before CalFuncTestSqrt Testing
+Verify result: square root for number 25.0
+After CalFuncTestSqrt Testing
+After CalFuncTestSqrt Class
+Before CalFuncTestFactrl Class
+Before CalFuncTestFactrl Testing
+Verify result: factorial for number 5.0
+After CalFuncTestFactrl Testing
+Before CalFuncTestFactrl Testing
+Verify result: factorial for number 10.0
+After CalFuncTestFactrl Testing
+Before CalFuncTestFactrl Testing
+Verify result: factorial for number 4.0
+After CalFuncTestFactrl Testing
+After CalFuncTestFactrl Class
+Before CalFuncTestPow Class
+Before CalFuncTestPow Testing
+Verify result: power for number1 - 2.0 number2 - 10.0
+After CalFuncTestPow Testing
+Before CalFuncTestPow Testing
+Verify result: power for number1 - 4.0 number2 - 5.0
+After CalFuncTestPow Testing
+Before CalFuncTestPow Testing
+Verify result: power for number1 - 11.0 number2 - 3.0
+After CalFuncTestPow Testing
+After CalFuncTestPow Class
+Before CalFuncTestLog Class
+Before CalFuncTestLog Testing
+Verify result: natural logarithm for number 10.0
+After CalFuncTestLog Testing
+Before CalFuncTestLog Testing
+Verify result: natural logarithm for number 4.0
+After CalFuncTestLog Testing
+After CalFuncTestLog Class
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.224 sec
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.015 s
+[[1;34mINFO[m] Finished at: 2021-03-16T06:00:26+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (4. Maven Install)
+[Pipeline] sh
++ mvn clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.example:SPE_Calculator[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding SPE_Calculator 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/ScientificCalc/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/ScientificCalc/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/ScientificCalc/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 5 source files to /var/lib/jenkins/workspace/ScientificCalc/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /var/lib/jenkins/workspace/ScientificCalc/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuites
+Before CalFuncTestSqrt Class
+Before CalFuncTestSqrt Testing
+Verify result: square root for number 81.0
+After CalFuncTestSqrt Testing
+Before CalFuncTestSqrt Testing
+Verify result: square root for number 16.0
+After CalFuncTestSqrt Testing
+Before CalFuncTestSqrt Testing
+Verify result: square root for number 25.0
+After CalFuncTestSqrt Testing
+After CalFuncTestSqrt Class
+Before CalFuncTestFactrl Class
+Before CalFuncTestFactrl Testing
+Verify result: factorial for number 5.0
+After CalFuncTestFactrl Testing
+Before CalFuncTestFactrl Testing
+Verify result: factorial for number 10.0
+After CalFuncTestFactrl Testing
+Before CalFuncTestFactrl Testing
+Verify result: factorial for number 4.0
+After CalFuncTestFactrl Testing
+After CalFuncTestFactrl Class
+Before CalFuncTestPow Class
+Before CalFuncTestPow Testing
+Verify result: power for number1 - 2.0 number2 - 10.0
+After CalFuncTestPow Testing
+Before CalFuncTestPow Testing
+Verify result: power for number1 - 4.0 number2 - 5.0
+After CalFuncTestPow Testing
+Before CalFuncTestPow Testing
+Verify result: power for number1 - 11.0 number2 - 3.0
+After CalFuncTestPow Testing
+After CalFuncTestPow Class
+Before CalFuncTestLog Class
+Before CalFuncTestLog Testing
+Verify result: natural logarithm for number 10.0
+After CalFuncTestLog Testing
+Before CalFuncTestLog Testing
+Verify result: natural logarithm for number 4.0
+After CalFuncTestLog Testing
+After CalFuncTestLog Class
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.796 sec
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.0:jar[m [1m(default-jar)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/ScientificCalc/target/SPE_Calculator-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:2.4.1:shade[m [1m(default)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;34mINFO[m] Including org.apache.logging.log4j:log4j-api:jar:2.6.1 in the shaded jar.
+[[1;34mINFO[m] Including org.apache.logging.log4j:log4j-core:jar:2.6.1 in the shaded jar.
+[[1;34mINFO[m] Replacing original artifact with shaded artifact.
+[[1;34mINFO[m] Replacing /var/lib/jenkins/workspace/ScientificCalc/target/SPE_Calculator-1.0-SNAPSHOT.jar with /var/lib/jenkins/workspace/ScientificCalc/target/SPE_Calculator-1.0-SNAPSHOT-shaded.jar
+[[1;34mINFO[m] Dependency-reduced POM written at: /var/lib/jenkins/workspace/ScientificCalc/dependency-reduced-pom.xml
+[[1;34mINFO[m] Dependency-reduced POM written at: /var/lib/jenkins/workspace/ScientificCalc/dependency-reduced-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mSPE_Calculator[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/ScientificCalc/target/SPE_Calculator-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/example/SPE_Calculator/1.0-SNAPSHOT/SPE_Calculator-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/ScientificCalc/dependency-reduced-pom.xml to /var/lib/jenkins/.m2/repository/org/example/SPE_Calculator/1.0-SNAPSHOT/SPE_Calculator-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.662 s
+[[1;34mINFO[m] Finished at: 2021-03-16T06:00:34+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (5. Docker Containerise image)
+[Pipeline] sh
++ sudo docker image build -t agapelee/specalculator:latest .
+Sending build context to Docker daemon  4.251MB
+
+Step 1/5 : FROM openjdk:8
+ ---> d6776a9d05ba
+Step 2/5 : MAINTAINER Yunmi Lee yunmi.lee@iiitb.org
+ ---> Using cache
+ ---> c670c97caed7
+Step 3/5 : COPY ./target/SPE_Calculator-1.0-SNAPSHOT.jar ./
+ ---> f40e8ae61468
+Step 4/5 : WORKDIR ./
+ ---> Running in a8f689a51d14
+Removing intermediate container a8f689a51d14
+ ---> 4db188f7abbd
+Step 5/5 : CMD ["java", "-jar", "SPE_Calculator-1.0-SNAPSHOT.jar"]
+ ---> Running in ef57eaf2899f
+Removing intermediate container ef57eaf2899f
+ ---> 4a474fcd9c28
+Successfully built 4a474fcd9c28
+Successfully tagged agapelee/specalculator:latest
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (6. Docker Push to DockerHub)
+[Pipeline] sh
++ sudo docker push agapelee/specalculator:latest
+The push refers to repository [docker.io/agapelee/specalculator]
+84460f79fd51: Preparing
+8a970d4156d3: Preparing
+09ac04d65797: Preparing
+59f1e8e1ce66: Preparing
+bde301416dd2: Preparing
+81496d8c72c2: Preparing
+644448d6e877: Preparing
+0e41e5bdb921: Preparing
+81496d8c72c2: Waiting
+644448d6e877: Waiting
+0e41e5bdb921: Waiting
+8a970d4156d3: Layer already exists
+09ac04d65797: Layer already exists
+59f1e8e1ce66: Layer already exists
+bde301416dd2: Layer already exists
+81496d8c72c2: Layer already exists
+644448d6e877: Layer already exists
+0e41e5bdb921: Layer already exists
+84460f79fd51: Pushed
+latest: digest: sha256:f521faf3fe0f6f50536a72515c2dabafb10274dc3679ddf8f51a1a387c4eb2ec size: 2005
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (7. Ansible Deploy SPE_Calculator on manage hosts)
+[Pipeline] ansiblePlaybook
+[ScientificCalc] $ /usr/bin/ansible-playbook deploy_specalc.yaml -i inventory
+
+PLAY [Deploy SPE-Calculator node 1, node 2] ************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [172.17.0.3][0m
+[0;32m[0m[0;32mok: [172.17.0.2][0m
+[0;32m[0m
+TASK [Install java8 package] ***************************************************
+[0;32mok: [172.17.0.2][0m
+[0;32m[0m[0;32mok: [172.17.0.3][0m
+[0;32m[0m
+TASK [Copy jar file to home directory] *****************************************
+[0;33mchanged: [172.17.0.2][0m
+[0;33m[0m[0;33mchanged: [172.17.0.3][0m
+[0;33m[0m
+PLAY [Deploy SPE-Calculator node 3] ********************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [192.168.1.171][0m
+[0;32m[0m
+TASK [Install java8 package] ***************************************************
+[0;32mok: [192.168.1.171][0m
+[0;32m[0m
+TASK [Pull SEP-Calculator docker image] ****************************************
+[0;33mchanged: [192.168.1.171][0m
+[0;33m[0m
+PLAY RECAP *********************************************************************
+[0;33m172.17.0.2[0m                 : [0;32mok=3   [0m [0;33mchanged=1   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+[0;33m172.17.0.3[0m                 : [0;32mok=3   [0m [0;33mchanged=1   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+[0;33m192.168.1.171[0m              : [0;32mok=3   [0m [0;33mchanged=1   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
+
